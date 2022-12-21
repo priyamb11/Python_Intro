@@ -8,3 +8,5 @@ def even_odd():
         print("odd")
 
 even_odd()
+
+print("pull")
