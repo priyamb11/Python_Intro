@@ -7,6 +7,6 @@ def even_odd():
     else:
         print("odd")
 
-even_odd()
+# Run Even or Odd function below
 
-print("pull")
+even_odd()
