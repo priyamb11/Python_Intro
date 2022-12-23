@@ -9,5 +9,5 @@ def even_odd():
 
 # Run Even or Odd function below
 
-even_odd()
+even_odd('10')
 
