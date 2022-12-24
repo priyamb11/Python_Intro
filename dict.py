@@ -11,8 +11,13 @@ second = input("Enter the name: ")
 if second == "Jithu_test":
     print("Hi name Jithu_test not present in the name dictionary")
 
-print(len(name_dict))
+print("Number of keys in the dictionary:", len(name_dict))
 
-print(len("Name") in name_dict)
-print((len(x)) for x in name_dict["Name"()])
+print("Number of elements for each key -")
+
+resultname = name_dict["Name"]
+print("Name:", len(resultname))
+
+resultage = name_dict["Age"]
+print("Age:", len(resultage))
 
