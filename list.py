@@ -3,26 +3,11 @@ print(names_list)
 
 first = input("Enter the name: ")
 
-if first == "Jithu" in names_list:
-    print("Hi name Jithu present in the name list")
+if first in names_list:
+    print("Hi", first, "present in the name list")
 else:
-    print("Hi name Jithu not present in the name list")
+    print("Hi", first, "not present in the name list")
 
-
-second = input("Enter the name: ")
-
-if second == "jithu" in names_list:
-    print("Hi name jithu present in the name list")
-else:
-    print("Hi name jithu not present in the name list")
-
-
-third = input("Enter the name: ")
-
-if third == "Jithu_test" in names_list:
-    print("Hi name Jithy_test present in the name list")
-else:
-    print("Hi name Jithu_test not present in the name list")
 
 names_list.append("shivey")
 names_list.remove("priyam")
