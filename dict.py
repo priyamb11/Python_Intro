@@ -3,14 +3,11 @@ print(name_dict)
 
 first = input("Enter the name: ")
 
-if first == "jithu":
-    print("Hi name jithu is present in the name dictionary, Age: 35")
+if first in name_dict["Name"]:
+    print("Hi name", first, "is present in the name dictionary")
+else:
+    print("Hi name", first, "not present in the name dictionary")
     
-second = input("Enter the name: ")
-
-if second == "Jithu_test":
-    print("Hi name Jithu_test not present in the name dictionary")
-
 print("Number of keys in the dictionary:", len(name_dict))
 
 print("Number of elements for each key -")
