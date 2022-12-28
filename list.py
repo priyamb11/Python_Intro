@@ -1,12 +1,12 @@
 names_list = ["priyam", "puneet", "jithu"]
 print(names_list)
 
-first = input("Enter the name: ")
+name = input("Enter the name: ")
 
-if first in names_list:
-    print("Hi", first, "present in the name list")
+if name in names_list:
+    print("Hi", name, "present in the name list")
 else:
-    print("Hi", first, "not present in the name list")
+    print("Hi", name, "not present in the name list")
 
 
 names_list.append("shivey")
