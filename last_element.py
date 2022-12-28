@@ -4,11 +4,16 @@ print(li)
 li = li[:-1]
 print(li)
 
-dic = {"Name": ('priyam','puneet','jithu'), "Age": ('21','46','35')}
+dic = {"Name": ['priyam','puneet','jithu'], "Age": ['21','46','35']}
 print(dic)
 
 ele = dic.popitem()
 print(dic)
 
-dic2 = {"Name":('priyam', 'puneet', 'jithu'), "Age":('21','46','35')}
+dic2 = {"Name":['priyam', 'puneet', 'jithu'], "Age":['21','46','35']}
+print(dic2)
+
+for k, v in dic2.items():
+    v.pop()
+
 print(dic2)
