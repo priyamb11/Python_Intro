@@ -15,3 +15,4 @@ dic = {"Name":['priyam', 'puneet', 'jithu'], "Age":['21','46','35']}
 for name, age in dic.items():
     age.pop()
 print(dic)
+# modifies existing dictionary
