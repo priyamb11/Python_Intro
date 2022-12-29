@@ -5,6 +5,8 @@ name = input("Enter the name: ")
 
 if name in name_dict["Name"]:
     print("Hi name", name, "is present in the name dictionary")
+    index = list(name_dict).index("Name")
+    print(index)
 else:
     print("Hi name", name, "not present in the name dictionary")
 

@@ -10,10 +10,8 @@ print(dic)
 ele = dic.popitem()
 print(dic)
 
-dic2 = {"Name":['priyam', 'puneet', 'jithu'], "Age":['21','46','35']}
-print(dic2)
+dic = {"Name":['priyam', 'puneet', 'jithu'], "Age":['21','46','35']}
 
-for k, v in dic2.items():
-    v.pop()
-
-print(dic2)
+for name, age in dic.items():
+    age.pop()
+print(dic)
