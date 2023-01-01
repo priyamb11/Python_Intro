@@ -12,7 +12,7 @@ def count_vowel(str):
     
     print("Number of vowels: ", count)
 
-str  = "Hi my name is PRIYAM"
+str  = "Hi my name is Priyam"
 
 print(str)
 count_vowel(str)
