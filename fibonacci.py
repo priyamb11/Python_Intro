@@ -8,4 +8,3 @@ def fibonacci_of(number):
     return cache[number]
 
 print([fibonacci_of(number) for number in range(12)])
-print(fibonacci_of(10))
