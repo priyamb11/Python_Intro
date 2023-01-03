@@ -1,6 +1,6 @@
 print("Count number of words in a line:")
 
-print(len(input("What would you like to say: ").split()))
+print(len(input("What would you like to say: ").split(',')))
 
 def count_vowel(str):
     count = 0
@@ -12,7 +12,6 @@ def count_vowel(str):
     
     print("Number of vowels: ", count)
 
-str  = "Hi my name is Priyam"
+str = input("What would you like to say: ")
 
-print(str)
 count_vowel(str)
