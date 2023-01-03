@@ -7,4 +7,4 @@ def fibonacci_of(number):
     cache[number] = fibonacci_of(number - 1) + fibonacci_of(number - 2)
     return cache[number]
 
-print([fibonacci_of(number) for number in range(12)])
+print([fibonacci_of(number) for number in range(3)])
